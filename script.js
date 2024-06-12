@@ -1,5 +1,3 @@
-
-
 const intro = document.querySelector('.intro');
 const about = document.querySelector('.about');
 const skills = document.querySelector('.skills');
@@ -144,6 +142,7 @@ tabProject.addEventListener('click', function(){
     }
 });
 
+// CONTACT
 tabContact.addEventListener('click', function(){
     tabContact.classList.add('tab-selected')
     if((tabHome.classList.contains('tab-selected'))) {
